@@ -46,6 +46,7 @@ const Home = () => {
                 src={offer.product_image.secure_url}
                 alt="Product image"
               />
+              <p>{offer.product_price} €</p>
             </div>
           </Link>
         );
