@@ -1,0 +1,40 @@
+.header_content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 0;
+  width: 1280px;
+}
+
+button {
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 30px;
+  outline: none;
+  width: 115px;
+}
+
+body {
+  /* border: 1px red solid; */
+}
+
+.home-card-wrapper {
+  /* border: 10px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+  width: 1280px;
+}
+
+.offer-picture {
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-container {
+  cursor: pointer;
+  padding: 0 6px 16px;
+  width: 300px;
+}
