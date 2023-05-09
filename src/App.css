@@ -44,3 +44,14 @@ button {
   color: black;
   text-decoration: none;
 }
+.form-container {
+  width: 230px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
