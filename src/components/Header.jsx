@@ -6,6 +6,7 @@ const Header = () => {
       <button>S'inscrire</button>
       <button>Se connecter</button>
       <button>Vends tes articles</button>
+      <button>Déconnexion</button>
     </header>
   );
 };

@@ -35,14 +35,18 @@ const Home = () => {
   return isLoading ? (
     <p>En cours de chargement ...</p>
   ) : (
-    <div className="home-card-wrapper">
+    <div className="home-offers">
       {data.offers.map((offer, index) => {
         return (
-          <Link key={offer._id} to={`/offer/${offer._id}`}>
+          <Link
+            className="police-style"
+            key={offer._id}
+            to={`/offer/${offer._id}`}
+          >
             <div className="card-container">
               <p>{offer.product_name}</p>
               <img
-                className="offer-picture"
+                className="product-picture"
                 src={offer.product_image.secure_url}
                 alt="Product image"
               />

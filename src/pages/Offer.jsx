@@ -20,7 +20,7 @@ const Offer = () => {
           // Je concatène ma chaîne de caractère à id. J'aurais aussi pû faire directement une interpolation : `https://lereacteur-vinted-api.herokuapp.com/offer/${id}`
           "https://lereacteur-vinted-api.herokuapp.com/offer/" + id
         );
-        // console.log(response.data);
+
         setData(response.data);
         setIsLoading(false);
       } catch (error) {
@@ -28,6 +28,7 @@ const Offer = () => {
       }
     };
     fetchData();
+
     // Pour ne pas avoir de warning dans le terminal lié au projet j'inclue id dans le tableau de dépendance. Utile au cas où l'id change de valeur.
   }, [id]);
 
